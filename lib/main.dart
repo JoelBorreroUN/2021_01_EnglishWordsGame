@@ -85,7 +85,7 @@ class _MyAppState extends State<MyApp> {
                       icon: Icon(Icons.refresh_outlined, size: 50),
                       onPressed: () {
                         setState(() {
-                          _score = 0;
+                          _hightScore = 0;
                         });
                         _setRandomWord();
                       })
